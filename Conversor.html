@@ -1,12 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <title> Conversões </title>
+<script 	type="text/javascript"
+    src="Conversor.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+<div id="teste"></div>
+
 </head>
+
 <body>
-    
+<form 	style="border: 1px double wheat; background-color: blueviolet;
+	padding: 4px;text-align:center;"
+	name="convert">
+
+Fahrenheit: <input 	type="text" 
+		name="ftemp" 
+		size="12"
+
+onchange="convertTemp('ftoc')"> é o mesmo que Celsius:
+
+<input 	type="text" 
+	name="ctemp" 
+	size="12"
+
+onchange="convertTemp('ctof')">
+
+é o mesmo que  Kelvin:
+
+<input 	type="text" 
+	name="ktemp" 
+	size="12"
+
+onchange="convertTemp('ktof')">
+
+<br /><br />
+<input 	type="button" 
+	value="limpar" 
+	onclick="LimparTudo();">
+</form>
 </body>
 </html>
