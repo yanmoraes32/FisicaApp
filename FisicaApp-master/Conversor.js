@@ -1,7 +1,7 @@
 function conversor(direção)
 {
  //instanciando objetos
-var far = document.convert.faretemp, cel = document.convert.celtemp, kel = document.convert.keltemp;
+var far = document.convert.faretemperatura, cel = document.convert.celsiusTemperatura, kel = document.convert.kelvinTemperatura;
 
 //definindo direções para conversões
 if (direção == "ftoc") //  o  input f receber valor
