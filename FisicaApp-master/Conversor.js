@@ -30,4 +30,15 @@ function LimparTudo() // Definido o input limpar com sua devida função
 document.convert.faretemp.value="";
 document.convert.celtemp.value="";
 document.convert.keltemp.value="";
+
+}
+
+function fonte(e){
+	var elemento = $(".acessibilidade");
+	var fonte = elemento.css('font-size');
+	if (e == 'a') {
+		elemento.css("fontSize", parseInt(fonte) + 1);
+	} else if('d'){
+		elemento.css("fontSize", parseInt(fonte) - 1);
+	}
 }
