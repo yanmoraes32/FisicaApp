@@ -19,3 +19,6 @@ input[type="button"] {
     width:230px;
     height:25px;
 }
+#date_time {
+    color: blueviolet; /*violet*/
+  }
