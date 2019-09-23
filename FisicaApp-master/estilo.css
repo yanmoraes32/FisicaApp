@@ -62,6 +62,8 @@ text-decoration:none;
 }
 button
 {
+	cursor: pointer	;
+
     font-family: Arial, Helvetica, sans-serif;
 	font-size: 17px;
 	color: #ffffff;
@@ -96,6 +98,8 @@ button[type="mais"]{
 
 }
 button.css3button {
+	cursor: pointer	;
+
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #ffffff;
@@ -130,7 +134,10 @@ button.css3button {
     overflow:hidden;
   }
   body{
-    background-image: url(giphy.gif);
+	background-image: url(giphy.gif);
+	width: 100%;
+	height: auto;
+    position: absolute;
 
   
   }
@@ -148,4 +155,13 @@ button.css3button {
   }
   
 
+t {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	letter-spacing: 3.4px;
+	word-spacing: 1.6px;
+	color: #ffffff;
+	font-weight: normal;
+	text-decoration: none solid rgb(68, 68, 68);
 
+}

@@ -8,9 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="estilo.css" />
 	<script src="botao.js"></script>
 	<script src=""></script>
-	
-	<menu><button><a href="Menu.html">Menu Principal</a></button> </menu>
-	
+
+	<menu><button><a href="Menu.html"><t>Menu Principal</t></a></button> </menu>
+
 
 
 
@@ -20,13 +20,14 @@
 
 </head>
 
-<body >
-	<form style="border-radius: 1px double wheat; 
-background-color: rgb(154, 229, 231);
-	padding: 4px;text-align:center;" name="convert">
+<body>
+	<form style="border-radius: 1px double wheat;
+	padding: 4px;text-align:center; margin-left:-189px; /* Metade do valor da Largura */
+margin-top:-190px;" name="convert">
 
-		<m> Valor em Fahrenheit: </m><input type="text" name="faretemperatura" size="12" onchange="conversor('ftoc')">  <m> Valor em
-		Celsius:</m>
+		<m> Valor em Fahrenheit: </m><input type="text" name="faretemperatura" size="12" onchange="conversor('ftoc')">
+		<m> Valor em
+			Celsius:</m>
 
 		<input type="text" name="celsiusTemperatura" size="12" onchange="conversor('ctof')">
 
@@ -36,10 +37,11 @@ background-color: rgb(154, 229, 231);
 
 		<br /><br />
 
-		<button onclick="LimparTudo();">limpar</button>
+		<button onclick="LimparTudo();"><t>limpar</t></button>
+		<button><a href="Formula.html"><t>Formula</t></a></button> 
 
 
-		
+
 
 
 
