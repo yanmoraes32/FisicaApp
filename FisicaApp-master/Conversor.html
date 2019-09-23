@@ -8,9 +8,11 @@
 	<link rel="stylesheet" type="text/css" href="estilo.css" />
 	<script src="botao.js"></script>
 	<script src=""></script>
-	<span id="date_time"></span>
-	<script type="text/javascript">window.onload = date_time('date_time');</script>
+	
 	<menu><button><a href="Menu.html">Menu Principal</a></button> </menu>
+	
+
+
 
 	<div id="teste"></div>
 
@@ -18,17 +20,17 @@
 
 </head>
 
-<body>
+<body >
 	<form style="border-radius: 1px double wheat; 
 background-color: rgb(154, 229, 231);
 	padding: 4px;text-align:center;" name="convert">
 
-		Valor em Fahrenheit: <input type="text" name="faretemperatura" size="12" onchange="conversor('ftoc')"> Valor em
-		Celsius:
+		<m> Valor em Fahrenheit: </m><input type="text" name="faretemperatura" size="12" onchange="conversor('ftoc')">  <m> Valor em
+		Celsius:</m>
 
 		<input type="text" name="celsiusTemperatura" size="12" onchange="conversor('ctof')">
 
-		Valor em Kelvin:
+		<m>Valor em Kelvin:</m>
 
 		<input type="text" name="kelvinTemperatura" size="12" onchange="conversor('ktof')">
 
@@ -37,8 +39,7 @@ background-color: rgb(154, 229, 231);
 		<button onclick="LimparTudo();">limpar</button>
 
 
-		<button type="button" id="btnAumentar" class="css3button">+</button>
-		<button type="button" id="btnDiminuir" class="css3button">-</button>
+		
 
 
 

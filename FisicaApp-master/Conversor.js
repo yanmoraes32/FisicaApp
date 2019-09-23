@@ -6,12 +6,13 @@ function conversor(direção) {
         if (direção == "ftoc") //  o  input f receber valor
         {
                 cel.value = Math.round((far.value - 32) * (5 / 9));
-                kel.value = Math.round((parseFloat(cel.value) + 459.67) * (5 / 9));
+                kel.value = Math.round((parseFloat(far.value) - 32) * (5 / 9) + 273,15);
                 if (kel.value < 0) {
                         var r = alert("Não é aceito pois ficou um Valor negativo em kelvin!");
                         if (r == true) {
                                 window.location.reload();
                         }
+                        //(-459 °F − 32) × 5/9 + 273,15 = 0,3722 K
 
                 }
 
